@@ -11,7 +11,7 @@ class Vehiculo:
         self.motor = motor
 
     def __str__(self):
-        return f"Es un vehiculo de {self.ruedas} ruedas, con {self.puertas} puertas y de color {self.motor}"
+        return f"Es un vehiculo de {self.ruedas} ruedas, con {self.puertas} puertas y de motor {self.motor}"
 
 
 auto1 = Vehiculo(4, 5, "Diesel")
